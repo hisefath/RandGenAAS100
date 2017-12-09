@@ -2,11 +2,10 @@
 <html lang="en-US">
 	<head>
 		<title> AAS 100 Final Exam </title> <!-- This is the title of the page -->
-		<link rel="stylesheet" type="text/css" href="gradDynamic.css"> <!--Going for a live iPhone Background-->
-		
+		<link rel="stylesheet" type="text/css" href="css/gradDynamic.css"> <!--Going for a live iPhone Background-->
+		<link rel="stylesheet" href="css/animate.min.css">
 	</head>
 		<body>
-	
 			<div class="gradDynamic"> <!--Gradient-->
 				<ul class="bubbles"> <!--daBubbles-->
         			<li></li>
@@ -15,15 +14,14 @@
         			<li></li>
         			<li></li>
     			</ul>
-	    			<div class ="wrapper">
-	    				<div class="textbox" id ="textbox">
-	    					Hello Class!
-	    				</div>
-	    			</div>	
-				<script src="ElementSpin.js"></script>
-				<button class="ghost" type="button" id="button" onclick="changePerson()">
-				Let's start</button>
+	    	<div class ="wrapper">
+	    		<div class="animated fadeInUp" id ="textbox">
+	    			 Hello Class!
+	    		</div>
+	    	</div>	
+			<script src="js/ElementSpin.js"></script>
+			<a class="button ghost" type="button" id="button" onclick="changePerson()">
+			Let's start</a>
 			</div>
-			
 		</body>
 </html>
