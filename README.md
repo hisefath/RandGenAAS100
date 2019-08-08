@@ -1,9 +1,10 @@
 # RandGenAAS100
 Random Student generator for our African American Studies Final Exam. Long Story haha.
+[aas100final.herokuapp.com](http://aas100final.herokuapp.com/)
 
 if (!personWantsTheLongStory){
 
-    std::cout << "Here's the thing, live: [aas100final.herokuapp.com](http://aas100final.herokuapp.com/)" << std::endl;
+    std::cout << "Here's the thing, live: aas100final.herokuapp.com" << std::endl;
     
    } else {
    
@@ -17,4 +18,4 @@ if (!personWantsTheLongStory){
                   I volunteered myself to make him a simple lightweight web app that would
                   randomize student's names for him." << std::endl;
    
-   }
+   
