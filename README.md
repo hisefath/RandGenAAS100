@@ -3,7 +3,7 @@ Random Student generator for our African American Studies Final Exam. Long Story
 
 if (!personWantsTheLongStory){
 
-    std::cout << "Here's the thing, live: [aas100final.herokuapp.com](http://aas100final.herokuapp.com/ "AAS100 Random Generator")" << std::endl;
+    std::cout << "Here's the thing, live: [aas100final.herokuapp.com](http://aas100final.herokuapp.com/)" << std::endl;
     
    } else {
    
